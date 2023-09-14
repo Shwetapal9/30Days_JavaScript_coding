@@ -9,6 +9,17 @@ console.log(maxMath);
 const maxReduce = arr.reduce((max, curr) => (curr > max ? curr : max), arr[0]);
 console.log(maxReduce);
 
-//Approach_3: Using sor() method
+//Approach_3: Using sort() method
 const maxSort = arr.sort((a, b) => b - a)[0];
 console.log(maxSort);
+
+// Approach_4: Using for each loop
+
+let max = arr[0];
+arr.forEach((item) => {
+  if (item > max) max = item;
+});
+
+console.log(max)
+
+// Approach_5: Using For Loop
