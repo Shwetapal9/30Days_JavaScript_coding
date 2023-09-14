@@ -22,4 +22,4 @@ arr.forEach((item) => {
 
 console.log(max)
 
-// Approach_5: Using For Loop
+//Approach_5: Using For Loop
